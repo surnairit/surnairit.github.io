@@ -1,13 +1,8 @@
-/*
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
-*/
-
 body {
 	margin: 0;
 	padding: 0;
-	background: #000000 url(images/DSC_0937_re-edit_webpage.png) repeat;
+	/*background: #000000 url(images/DSC_0937_re-edit_webpage_reduced_2.png) repeat;*/
+  background: #000000 url(https://c1.staticflickr.com/9/8787/17670577578_936a4299f2_h.jpg) repeat;
 /*	font-family: 'Arvo', serif; */
   font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
@@ -71,7 +66,8 @@ img.aligncenter {
 }
 
 #wrapper {
-	width: 960px;
+/*	width: 960px; */
+  width: 1080px;
 	margin: 0px auto;
 	background: url(images/img01.jpg) no-repeat center top;
 }
@@ -79,10 +75,15 @@ img.aligncenter {
 #wrapper-bgbtm {
 }
 
+/* Cover Pic */
+#cover-pic {
+  /*box-shadow: 8px -8px 8px 8px rgba(34,34,34,0.6); */
+}
+
 /* Header */
 
 #header {
-	width: 960px;
+	width: 1080px;
 	height: 100px;
 	margin: 0 auto;
 }
@@ -210,13 +211,15 @@ img.aligncenter {
 
 #page {
 	width: 1080px;
+/*  width: 1920px; */
 }
 
 /* Content */
 
 #content {
 	float: left;
-	width: 650px;
+/*	width: 650px; */
+  width: 700px;
 	padding: 60px 0px 0px 0px;
 }
 
